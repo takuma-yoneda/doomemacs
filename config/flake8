@@ -1,0 +1,17 @@
+[flake8]
+
+# ERROR CODES
+#
+# E/W  - PEP8 errors/warnings (pycodestyle)
+# F    - linting errors (pyflakes)
+# C    - McCabe complexity error (mccabe)
+#
+# E133 - closing bracket is missing indentation (conflicts with black)
+# E203 - whitespace before ‘:’ (conflicts with black)
+# E226 - missing whitespace around arithmetic operator
+# E702 - multiple statements on one line (This gives error on "import pdb; pdb.set_trace()")
+# F403 - ‘from module import *’ used; unable to detect undefined names
+# W503 - linebreak before binary operatior (conflicts with black)
+
+ignore = E133,E203,E226,E702,F403,F401,W503
+max-line-length = 120

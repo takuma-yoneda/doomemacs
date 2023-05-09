@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: logger print
+# uuid: logger print
+# key: lp
+# condition: t
+# --
+logger.print(${1:string})

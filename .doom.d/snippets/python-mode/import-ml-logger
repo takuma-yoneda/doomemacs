@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import ml-logger logger
+# uuid:
+# key: mll
+# condition: t
+# --
+from ml_logger import logger
